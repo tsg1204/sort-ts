@@ -1,5 +1,3 @@
-
-
 import { Sorter } from './Sorter';
 import { NumbersCollection } from './NumbersCollection';
 import { CharactersCollection } from './CharactersCollection';
@@ -10,10 +8,13 @@ linkedList.add(700);
 linkedList.add(-50);
 linkedList.add(5);
 linkedList.add(0);
-//const charCollection = new CharactersCollection('ZPfglkwer');
+const charCollection = new CharactersCollection('ZPfglkwer');
 
-// const numbersCollection = new NumbersCollection([10, 3, -5, 0, 159]);
+const numbersCollection = new NumbersCollection([10, 3, -5, 0, 159]);
 
-const sorter = new Sorter(linkedList);
-sorter.sort();
+numbersCollection.sort();
+charCollection.sort();
+console.log(numbersCollection.data);
+console.log(charCollection.data);
+linkedList.sort();
 linkedList.print();
