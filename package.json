@@ -1,0 +1,26 @@
+{
+  "name": "sort-ts",
+  "version": "1.0.0",
+  "description": "TypeScript study part 2",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc-w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsg1204/sort-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsg1204/sort-ts/issues"
+  },
+  "homepage": "https://github.com/tsg1204/sort-ts#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
